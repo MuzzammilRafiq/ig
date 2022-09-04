@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: url("./img/bcg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Signup */
+.signup {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+  max-width: 300px;
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 5px;
+}
+input {
+  height: 40px;
+  outline: 0;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+button {
+  height: 30px;
+  background-color: blue;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(104, 104, 253);
+}
+p {
+  text-align: center;
+}
+/* Login */
+.login {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+  max-width: 300px;
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(104, 104, 243);
+}
+p {
+  text-align: center;
+}
+.post {
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 5px;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.post_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.post_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+.header {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  flex: 0.3;
+  justify-content: space-around;
+}
+.header_middle {
+  display: flex;
+  flex: 0.4;
+  justify-content: space-around;
+}
+.header_left {
+  display: flex;
+  flex: 0.3;
+  justify-content: space-around;
+}
+.header_middle > form > input {
+  border: 0;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  background-color: rgb(220, 218, 218);
+  color: rgb(102, 101, 101);
+  font-size: medium;
+  font-weight: 100;
+}
+.addpost_text {
+  margin: auto;
+  resize: none;
+  font-size: larger;
+}
